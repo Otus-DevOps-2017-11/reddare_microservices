@@ -1,0 +1,9 @@
+REPOSITORY                 TAG                 IMAGE ID            CREATED             SIZE
+yourname/ubuntu-tmp-file   latest              bd67217a9bc5        2 minutes ago       112MB
+nginx                      latest              9e988ed19567        8 hours ago         109MB
+ubuntu                     16.04               0458a4468cbc        3 weeks ago         112MB
+hello-world                latest              f2a91732366c        2 months ago        1.85kB
+
+образ в докере является базой (основой) для контейнера. образ не принимает изменений при работе контейнера (read only). 
+
+контейнер же является экземпляром выполнения образа. он уже имеет слой записи изменений, которого нет в образе.
