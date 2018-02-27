@@ -38,3 +38,12 @@ ENV COMMENT_SERVICE_HOST comment
 ENV COMMENT_SERVICE_PORT 9292
 CMD ["puma"]
 ```
+-------------
+## HOMEWORK 17
+
+* Добавлено домашнее задание 17
+
+- Имя проекта можно изменить в переменной COMPOSE_PROJECT_NAME, для теста она используется в .env файле
+- **docker-compose.override.yml** добавлен с учетом второй задачи со свездочкой
+
+
