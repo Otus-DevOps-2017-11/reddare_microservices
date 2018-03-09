@@ -66,3 +66,6 @@ CMD ["puma"]
 
 Задание со звездочкой 2:
 Добавлен мониторинг сервисов comment,post, ui спомощью blackbox экспортера.
+
+Ссылка на docker hub с образами используемыми в данном дз:
+https://hub.docker.com/u/zolti/
