@@ -69,3 +69,11 @@ CMD ["puma"]
 
 Ссылка на docker hub с образами используемыми в данном дз:
 https://hub.docker.com/u/zolti/
+
+-------------
+## HOMEWORK 23
+
+* Добавлено домашнее задание 23
+
+Ссылка на docker hub с образами используемыми в данном дз:
+https://hub.docker.com/u/zolti/
