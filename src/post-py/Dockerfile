@@ -1,13 +1,15 @@
-FROM python:3.6.0-alpine
-
-RUN pip install flask==0.12.2 pymongo==3.6.0
-
-WORKDIR /app
-COPY . /app
-
-RUN pip install -r /app/requirements.txt
+FROM python:3.6.0
 
 ENV POST_DATABASE_HOST post_db
 ENV POST_DATABASE posts
 
-CMD ["python3", "post_app.py"]
+COPY . /app
+
+RUN pip install -r app/requirements.txt
+
+# ADD . /app
+
+
+WORKDIR /app
+
+ENTRYPOINT ["python3", "post_app.py"]
