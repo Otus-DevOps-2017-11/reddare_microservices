@@ -104,3 +104,7 @@ docker stack deploy --compose-file=<(docker-compose -f docker-compose.yml -f doc
 
 В связи с этим особо экспериментировать с различными файлами .env не стал.
 
+-------------
+## HOMEWORK 28
+
+* Добавлено домашнее задание 28
