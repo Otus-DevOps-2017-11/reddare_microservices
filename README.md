@@ -108,3 +108,10 @@ docker stack deploy --compose-file=<(docker-compose -f docker-compose.yml -f doc
 ## HOMEWORK 28
 
 * Добавлено домашнее задание 28
+
+-------------
+## HOMEWORK 29
+
+* Добавлено домашнее задание 29
+
+Ссылка на приложение в GKE: http://35.188.41.250:30040/
